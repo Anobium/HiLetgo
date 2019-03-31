@@ -8,7 +8,7 @@ The GIT contains the source Great Cow BASIC and a HEX file that can be used to p
 
 # HiLegto
 
-![alt text](https://github.com/Anobium/HiLetgo/blob/master/images/logo.png)
+![logo](http://cdn-for-hk.img-sys.com/comdata/51404/201806/201806041612239191fa.png)
 
 HiLetgo is located in located in Shenzhen, a Technology City in China.
 
