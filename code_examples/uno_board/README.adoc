@@ -14,7 +14,7 @@ The packaging was a solid carboard box with the board sealed in an anti-static b
 
 The HiLetgo UNO board is a clean and with the addition of the through-hole sockets this is a good product.
 
-The board uses a CH340 for USB connections and this cause not issue with the computers tested.{nbsp}{nbsp}
+The board uses a CH340 for USB connections and this caused no issues with the computers tested.{nbsp}{nbsp}
 
 
 *Rating*
