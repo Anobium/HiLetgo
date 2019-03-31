@@ -46,5 +46,13 @@ The GIT is layout matched the products that HiLegto produce.
 |https://www.amazon.co.uk/HiLetgo%C2%AE-Display-ILI9341-240X320-Arduino/dp/B0798N3JWD/ref=sr_1_1?keywords=hiletgo+lcd&qid=1554042059&s=gateway&sr=8-1[*Amazon Product link*]
 |https://github.com/Anobium/HiLetgo/tree/master/code_examples/grapicalsprites[GLCD Sprites]
 
+|1602 Serial LCD Module Display
+|
+|
+
+
+|WS2812 5050 RGB LED Ring
+|
+|
 
 |===
