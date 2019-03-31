@@ -29,7 +29,7 @@ The GIT is layout matched the products that HiLegto produce.
 |Product
 |Description
 |Product URL
-|Demo URL
+|GIT URL
 
 |UNO Board
 |Shows how the on-board LED can be used to many show many different techniques to use an LED
