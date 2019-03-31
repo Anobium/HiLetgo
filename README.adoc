@@ -48,12 +48,12 @@ The GIT is layout matched the products that HiLegto produce.
 
 |1602 Serial LCD Module Display
 |
-|https://www.amazon.co.uk/HiLetgo%C2%AE-Display-Backlight-Controller-Character/dp/B00HJ6AFW6/ref=sr_1_4?keywords=hiletgo+lcd&qid=1554045371&s=gateway&sr=8-4[LCD 1602]
+|https://www.amazon.co.uk/HiLetgo%C2%AE-Display-Backlight-Controller-Character/dp/B00HJ6AFW6/ref=sr_1_4?keywords=hiletgo+lcd&qid=1554045371&s=gateway&sr=8-4[*Amazon Product link*]
 |
 
 |WS2812 5050 RGB LED Ring
 |
-|https://www.amazon.co.uk/HiLetgo%C2%AE-WS2812-Integrated-Driver-Arduino/dp/B07B46JZDB/ref=sr_1_3?keywords=hiletgo+led&qid=1554045508&s=gateway&sr=8-3[]
+|https://www.amazon.co.uk/HiLetgo%C2%AE-WS2812-Integrated-Driver-Arduino/dp/B07B46JZDB/ref=sr_1_3?keywords=hiletgo+led&qid=1554045508&s=gateway&sr=8-3[*Amazon Product link*]
 |
 
 |===
