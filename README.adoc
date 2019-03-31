@@ -10,7 +10,7 @@ The GIT contains the source Great Cow BASIC and a HEX file that can be used to p
 
 .A mountain sunset
 [#img-sunset]
-[caption="Figure 1: ",link=https://www.flickr.com/photos/javh/5448336655]
+[caption="Figure 1: ",link=https://github.com/Anobium/HiLetgo/blob/master/images/logo.png]
 image::sunset.jpg[Sunset,300,200]
 
 
