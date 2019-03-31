@@ -49,9 +49,10 @@ The GIT is layout matched the products that HiLegto produce.
 |1602 Serial LCD Module Display
 |
 |
-
+|
 
 |WS2812 5050 RGB LED Ring
+|
 |
 |
 
