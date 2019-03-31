@@ -1,6 +1,6 @@
 # HiLegto
 
-This GIT contains the demonstrations created for the HiLegto suite of products. 
+This GIT contains the demonstrations created for the HiLegto suite of products.
 
 The baseline set of demonstrations was created at version 0.98.xx of the Great Cow BASIC distrubution.
 
@@ -11,9 +11,9 @@ Enjoy
 
 # HiLegto
 
-HiLetgo is located in located in Shenzhen, a Technology City in China. 
+HiLetgo is located in located in Shenzhen, a Technology City in China.
 
-They create electronics modules, sensors and robot parts.  
+They create electronics modules, sensors and robot parts.
 
 The brand name is *HiLetgo* selling  products including development boards like Uno, MEGA, Pro-mini, Nano, ESP8266, ESP32, Power & Drive modules, Sensors, Breadboards, Connectors and Jumper Wires.
 
@@ -31,11 +31,10 @@ The GIT is layout matched the products that HiLegto produce.
 |===
 
 |UNO Board
-|https://www.amazon.co.uk/HiLetgo-ATmega328P-Development-Compatible-Straight/dp/B00VY3ZLMO/ref=sr_1_2?keywords=hiletgo+uno&qid=1554040891&s=gateway&sr=8-2 @ *Amazon Product*]      
-|link:code_examples/uno_board
+|https://www.amazon.co.uk/HiLetgo-ATmega328P-Development-Compatible-Straight/dp/B00VY3ZLMO/ref=sr_1_2?keywords=hiletgo+uno&qid=1554040891&s=gateway&sr=8-2[*Amazon Product*]
+|<<code_examples/uno_board,Uno Board demonstrations>>
 
 |
-|
-|
+|http://discuss.asciidoctor.org[Discuss Asciidoctor^]
+|http://discuss.asciidoctor.org[Discuss Asciidoctor^]
 |===
-
