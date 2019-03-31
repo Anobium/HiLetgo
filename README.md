@@ -11,7 +11,31 @@ Enjoy
 
 # HiLegto
 
+HiLetgo is located in located in Shenzhen, a Technology City in China. 
+
+They create electronics modules, sensors and robot parts.  
+
+The brand name is *HiLetgo* selling  products including development boards like Uno, MEGA, Pro-mini, Nano, ESP8266, ESP32, Power & Drive modules, Sensors, Breadboards, Connectors and Jumper Wires.
+
+They are committed to provide the latest products at the highest quality and competitive price to the people at all over the world through many different channels like Amazon.
+
+See https://www.amazon.co.uk/s?k=hiletgo&ref=nb_sb_noss_2 on Amazon
 
 
 # Demostration GIT Layout
+
+The GIT is layout matched the products that HiLegto produce.
+
+
+[cols="23", options="header"]
+|===
+
+|UNO Board
+|https://www.amazon.co.uk/HiLetgo-ATmega328P-Development-Compatible-Straight/dp/B00VY3ZLMO/ref=sr_1_2?keywords=hiletgo+uno&qid=1554040891&s=gateway&sr=8-2 @ *Amazon Product*]      
+|link:code_examples/uno_board
+
+|
+|
+|
+|===
 
