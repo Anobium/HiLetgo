@@ -8,6 +8,7 @@ The GIT contains the source Great Cow BASIC and a HEX file that can be used to p
 
 # HiLegto
 
+.A mountain sunset
 [#img-sunset]
 [caption="Figure 1: ",link=https://www.flickr.com/photos/javh/5448336655]
 image::sunset.jpg[Sunset,300,200]
