@@ -27,7 +27,7 @@ See https://www.amazon.co.uk/s?k=hiletgo&ref=nb_sb_noss_2 on Amazon
 The GIT is layout matched the products that HiLegto produce.
 
 
-[cols="23", options="header"]
+[cols="3", options="header"]
 |===
 
 |UNO Board
