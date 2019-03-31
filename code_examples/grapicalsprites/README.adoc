@@ -8,7 +8,7 @@ The Graphic LCD (GLCD) is 2.4" diagonal LCD TFT Touch Panel display.
 
 The HiLetgo GLCD worked at expected when delivered.
 
-The packaging was a solid carboard box with the GLCD sealed in an anti-static bag.{nbsp}{nbsp}The GLCD fitted without issue to the HiLego UNO board (other UNO boards were tested and the GLCD fitter these also).{nbsp}{nbsp}
+The packaging was a solid carboard box with the GLCD sealed in an anti-static bag.{nbsp}{nbsp}The required stylis and the USB cable was supplied.{nbsp}{nbsp}The GLCD fitted without issue to the HiLego UNO board (other UNO boards were tested and the GLCD fitter these also).{nbsp}{nbsp}
 
 
 The HiLetgo GLCD is a bright, 4 white-LED backlight color display that used an 8 bit digital interface, plus 4 control lines.  These is laid out on the UNO shield.
