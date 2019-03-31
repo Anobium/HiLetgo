@@ -5,7 +5,7 @@
 ''':
 '''This demonstration toggles the LEDs by use of the NOT operation of the LED current status.
 '''The LED is connected to Portb.5 via appropiate resistors on the HiLetgo UNO board
-'''@author  EvanV plus works of others
+'''@author  EvanV
 '''@licence GPL
 '''@version 1.0a
 '''@date    31.03.2019

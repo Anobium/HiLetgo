@@ -2,7 +2,7 @@
 '''--------------------------------------------------------------------------------------------------------------------------------
 '''This program blink one LED on PORTB, bit 5  using the PulseOut command.
 '''The LED is connected to Portb.5 via appropiate resistors on the HiLetgo UNO board
-'''@author  EvanV plus works of others
+'''@author  EvanV
 '''@licence GPL
 '''@version 1.0a
 '''@date    31.03.2019
@@ -28,4 +28,3 @@
      'Then wait after the pin goes off
      Wait 500 ms
   Loop
-
