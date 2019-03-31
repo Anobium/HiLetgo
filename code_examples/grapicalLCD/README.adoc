@@ -6,16 +6,15 @@ The Graphic LCD (GLCD) is 2.4" diagonal LCD TFT Touch Panel display that support
 
 *HiLetgo Product*
 
-The HiLetgo GLCD worked at expected when delivered.
+The HiLetgo GLCD worked as expected, out of the box', when delivered.
 
-The packaging was a solid carboard box with the GLCD sealed in an anti-static bag.{nbsp}{nbsp}The GLCD fitted without issue to the HiLego UNO board (other UNO boards were tested and the GLCD fitter these also).{nbsp}{nbsp}
-
-
-The HiLetgo GLCD is a bright, 4 white-LED backlight color display that used an 8 bit digital interface, plus 4 control lines.  These is laid out on the UNO shield.
+The packaging was a solid carboard box with the GLCD sealed in an anti-static bag.{nbsp}{nbsp}This GLCD was fitted without issue to the HiLego UNO board (and, other UNO boards were also tested with no issues).{nbsp}{nbsp}
 
 
-The UNO uses digital pins 5-9 and analog 0-4. That means you can use the other digital and analogs. Pin 12 is available if not using the micro SD
-5V compatible, use with 3.3V or 5V logic
+The HiLetgo GLCD is a bright, 4 white-LED backlight color display that uses an 8 bit digital interface, plus 4 control lines.  These are laid out on the UNO shield.
+
+
+The UNO uses digital pins 5-9 and analog 0-4. That means you can use the other digital and analog ports. Pin 12 is available if not using the micro SD.  The GLCD specification is 5V compatible with 3.3V or 5V logic.
 
 The shield is for an Arduino UNO R3 or a MEGA2560.
 
