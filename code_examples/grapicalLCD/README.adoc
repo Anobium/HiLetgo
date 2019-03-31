@@ -4,6 +4,8 @@
 
 The Graphic LCD (GLCD) is 2.4" diagonal LCD TFT Touch Panel display that supports 240RGBx320 pixels.
 
+image::https://images-na.ssl-images-amazon.com/images/I/41ZK-2jK2ZL._AC_SY400_.jpg[Image]
+
 *HiLetgo Product*
 
 The HiLetgo GLCD worked as expected, out of the box', when delivered.
