@@ -1,5 +1,15 @@
-;ILI9341 Arduino UNO game demo
-;buttons pulled low
+'''A demonstration program for GCGB and GCB.
+'''--------------------------------------------------------------------------------------------------------------------------------
+'''This program is a simple GLCD demonstration of the GLCD capabilities.
+'''It is a nice graphical LCD, suitable for a lot of various projects.
+'''This program displays random boxes on the display
+''':
+''':
+'''@author  EvanV
+'''@licence GPL
+'''@version 1.0
+'''@date    03.04.2019
+'''********************************************************************************
 #chip mega328p, 16
 #include <uno_mega328p.h >
 #option explicit
