@@ -46,13 +46,13 @@ The GIT is layout matched the products that HiLegto produce.
 |https://github.com/Anobium/HiLetgo/tree/master/code_examples/uno_board[Uno Board demonstrations]
 
 |Graphical LCD  - Primitives
-|https://github.com/Anobium/HiLetgo/blob/master/code_examples/grapicalLCD/README.adoc[GLCD review]
+|https://github.com/Anobium/HiLetgo/blob/master/code_examples/glcd_review/README.adoc[GLCD review]
 |Shows how the Graphical LCD can be used for Text, Line, Circles, fonts etc
 |https://www.amazon.co.uk/HiLetgo%C2%AE-Display-ILI9341-240X320-Arduino/dp/B0798N3JWD/ref=sr_1_1?keywords=hiletgo+lcd&qid=1554042059&s=gateway&sr=8-1[*Amazon Product link*]
 |https://github.com/Anobium/HiLetgo/tree/master/code_examples/grapicalLCD[Graphical LCD]
 
 |Graphical LCD - Sprites
-|https://github.com/Anobium/HiLetgo/blob/master/code_examples/grapicalLCD/README.adoc[GLCD review - same as above]
+|https://github.com/Anobium/HiLetgo/blob/master/code_examples/glcd_review/README.adoc[GLCD review]
 |Shows how the Graphical LCD can be used for showing Sprites for gaming
 |https://www.amazon.co.uk/HiLetgo%C2%AE-Display-ILI9341-240X320-Arduino/dp/B0798N3JWD/ref=sr_1_1?keywords=hiletgo+lcd&qid=1554042059&s=gateway&sr=8-1[*Amazon Product link*]
 |https://github.com/Anobium/HiLetgo/tree/master/code_examples/grapicalsprites[GLCD Sprites]
