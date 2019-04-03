@@ -65,9 +65,9 @@ The GIT is layout matched the products that HiLegto produce.
 
 |WS2812 5050 RGB LED Ring
 |#[to be completed]
-|
+|Shows how to program the LEDs with color, and determine specific timing.
 |https://www.amazon.co.uk/HiLetgo%C2%AE-WS2812-Integrated-Driver-Arduino/dp/B07B46JZDB/ref=sr_1_3?keywords=hiletgo+led&qid=1554045508&s=gateway&sr=8-3[*Amazon Product link*]
-|
+|https://github.com/Anobium/HiLetgo/tree/master/code_examples/LEDs_ws2812[LED WS2812 Ring]
 
 |===
 
