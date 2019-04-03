@@ -15,8 +15,8 @@
 '''
 '''@author     Evan Venn
 '''@licence    GPL
-'''@version    1.00
-'''@date       31/3/19
+'''@version    2.00
+'''@date       3/4/19
 '''********************************************************************************
 
   #chip mega328p, 16
@@ -244,6 +244,22 @@ Sub GLCDreadRegStr( reg as word, nparams, lnmsg as string )
 
 End Sub
 
+function GLCDreadReg32( reg as byte ) as long
+
+'    GlcdReset
+    GlcdSetWriteDir
+    GLCDSendCommand(0xB0) ' Command Access Protect
+    GLCDSendData(0x00)    ' looks wrong
+
+    GLCDSendCommand(reg)
+    GlcdSetReadDir
+
+    GLCDreadReg32 = glcdReadData32
+    glcdSetWriteDir
+
+End Function
+
+
 function GLCDreadReg16( reg as byte ) as word
 
 '    GlcdReset
@@ -345,6 +361,71 @@ function GlcdReadData16 as word
     wait 10 us
 End function
 
+
+
+    dim GlcdReadData32 as long
+function GlcdReadData32 as long
+
+    glcdSetReadDir
+    HX8347_GLCD_CS = 0
+    HX8347_GLCD_RS = 1
+    HX8347_GLCD_RD = 1
+    HX8347_GLCD_WR = 1
+
+    HX8347_GLCD_RD = 0
+    wait 10 us
+    GlcdReadData32.31 = HX8347_GLCD_DB7
+    GlcdReadData32.30 = HX8347_GLCD_DB6
+    GlcdReadData32.29 = HX8347_GLCD_DB5
+    GlcdReadData32.28 = HX8347_GLCD_DB4
+    GlcdReadData32.27 = HX8347_GLCD_DB3
+    GlcdReadData32.26 = HX8347_GLCD_DB2
+    GlcdReadData32.25  = HX8347_GLCD_DB1
+    GlcdReadData32.24  = HX8347_GLCD_DB0
+    HX8347_GLCD_RD = 1
+    wait 10 us
+
+    HX8347_GLCD_RD = 0
+    wait 10 us
+    GlcdReadData32.23 = HX8347_GLCD_DB7
+    GlcdReadData32.22 = HX8347_GLCD_DB6
+    GlcdReadData32.21 = HX8347_GLCD_DB5
+    GlcdReadData32.20 = HX8347_GLCD_DB4
+    GlcdReadData32.19 = HX8347_GLCD_DB3
+    GlcdReadData32.18 = HX8347_GLCD_DB2
+    GlcdReadData32.17 = HX8347_GLCD_DB1
+    GlcdReadData32.16 = HX8347_GLCD_DB0
+    HX8347_GLCD_RD = 1
+    wait 10 us
+
+    HX8347_GLCD_RD = 0
+    wait 10 us
+    GlcdReadData32.15 = HX8347_GLCD_DB7
+    GlcdReadData32.14 = HX8347_GLCD_DB6
+    GlcdReadData32.13 = HX8347_GLCD_DB5
+    GlcdReadData32.12 = HX8347_GLCD_DB4
+    GlcdReadData32.11 = HX8347_GLCD_DB3
+    GlcdReadData32.10 = HX8347_GLCD_DB2
+    GlcdReadData32.9  = HX8347_GLCD_DB1
+    GlcdReadData32.8  = HX8347_GLCD_DB0
+    HX8347_GLCD_RD = 1
+    wait 10 us
+
+    HX8347_GLCD_RD = 0
+    wait 10 us
+    GlcdReadData32.7 = HX8347_GLCD_DB7
+    GlcdReadData32.6 = HX8347_GLCD_DB6
+    GlcdReadData32.5 = HX8347_GLCD_DB5
+    GlcdReadData32.4 = HX8347_GLCD_DB4
+    GlcdReadData32.3 = HX8347_GLCD_DB3
+    GlcdReadData32.2 = HX8347_GLCD_DB2
+    GlcdReadData32.1 = HX8347_GLCD_DB1
+    GlcdReadData32.0 = HX8347_GLCD_DB0
+    HX8347_GLCD_RD = 1
+    wait 10 us
+End function
+
+
 sub  GLCDSendCommand( IN HX8347SendByte as word )
 
     glcdSetWriteDir
@@ -424,6 +505,56 @@ End Sub
 
 sub  GLCDreadID ( out DeviceID as word )
 
+ dim regWord as word
+
+ regWord = GLCDreadReg16(0x00)
+
+ if ( regWord = 0x5408) then   'the SPFD5408 fails the 0xD3D3 test.
+      DeviceID = 0x5408
+      devicestr =  "@reg(0x00) 0x5408"
+      exit sub
+ end if
+
+ if ( regWord = 0x5420) then   'the SPFD5420  fails the 0xD3D3 test.
+      DeviceID = 0x5420
+      devicestr =  "@reg(0x00) 0x5420"
+      exit sub
+ end if
+
+ if ( regWord = 0x8989) then   'the SSD1289 is always 8989
+      DeviceID = 0x1289
+      devicestr =  "@reg(0x00) SSD1289"
+      exit sub
+ end if
+
+ if ( GLCDreadReg16(0x67) = 0x4747) then
+      DeviceID = 0x8347
+      devicestr =  "@reg(0x67) HX8347-A"
+      exit sub
+ end if
+
+ regWord = GLCDreadReg16(0xBF)
+
+ if ( GLCDreadReg16(0x67) = 0x8357) then   'HX8357B: [xx 01 62 83 57 FF]
+      DeviceID = 0x8357
+      devicestr =  "@reg(0x67) 8357"
+      exit sub
+ end if
+
+ if ( GLCDreadReg16(0x67) = 0x9481) then   'ILI9481: [xx 02 04 94 81 FF]
+      DeviceID = 0x9481
+      devicestr =  "@reg(0x67) ILI9481"
+      exit sub
+ end if
+
+ if ( GLCDreadReg16(0x00) = 0x7575) then
+      DeviceID = 0x7575
+      devicestr =  "@reg(0x00) HX8347-G(T)"
+      exit sub
+ end if
+
+
+
  if ( GLCDreadReg16(0x04) = 0x8000) then
       GlcdSetWriteDir
       GLCDSendCommand(0x03)
@@ -450,7 +581,13 @@ sub  GLCDreadID ( out DeviceID as word )
     end if
  end if
 
- if ( GLCDreadReg16(0xD3) = 0x9341) then
+
+
+
+ dim regLong as long
+ regLong = GLCDreadReg32(0xD3)
+
+ if ( regLong_h = 0x93 | regLong_h = 0x94 |regLong_h = 0x98 |regLong_h = 0x77 |regLong_h = 0x16  ) then  '0x9488, 9486, 9340, 9341, 7796
       DeviceID = 0x9341
       devicestr = "@reg(0xD3) ILI9341"
       exit sub
@@ -462,11 +599,6 @@ sub  GLCDreadID ( out DeviceID as word )
       exit sub
  end if
 
- if ( GLCDreadReg16(0x00) = 0x7575) then
-      DeviceID = 0x7575
-      devicestr =  "@reg(0x00) HX8347-G(T)"
-      exit sub
- end if
 
 
 

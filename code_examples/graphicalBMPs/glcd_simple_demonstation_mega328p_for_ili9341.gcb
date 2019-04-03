@@ -1,6 +1,6 @@
 '''A demonstration program for GCGB and GCB.
 '''--------------------------------------------------------------------------------------------------------------------------------
-'''This program is a simple GLCD demonstration of the ILI9486L GLCD capabilities.
+'''This program is a simple GLCD demonstration of the GLCD capabilities.
 '''It is a nice graphical LCD, suitable for a lot of various projects.
 '''This program display a BMP file on the display and some text.
 ''':
@@ -42,10 +42,12 @@
     'main program start here
     #define DEFAULT_GLCDBACKGROUND TFT_WHITE     'change the default background color to white
     #define GLCD_OLED_FONT                       'select the OLED fonts
-    GLCDfntDefaultsize = 2
+
 
     'Use standard methods to display picture and some text.
     DrawBMP_SSD1289 (30, 40, Image1)
+
+    GLCDfntDefaultsize = 2
     GLCDPrint  80, 200, "ILI9341", TFT_RED
     GLCDPrint  5, 230, "UNO AVR Graphical LCD Shield", TFT_RED
 
