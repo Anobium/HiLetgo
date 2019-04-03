@@ -1,2 +1,2 @@
-image::output_small.jpg[]
+image::output.jpg[Output, 304,358]
 
