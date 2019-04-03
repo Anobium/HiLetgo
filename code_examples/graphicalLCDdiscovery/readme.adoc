@@ -57,6 +57,6 @@ Completed  :
 
 ----
 
-Actaul image from a serial terminal
+Actual image from a serial terminal
 
 image::SampleOutput.JPG[Output,25%,25%]
