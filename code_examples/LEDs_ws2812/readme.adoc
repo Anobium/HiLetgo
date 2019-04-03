@@ -4,7 +4,7 @@
 
 An LED full-color light ring of LEDs, full-color modules mounted on robust PCB.
 
-image::../../images/Ring.jpg[]
+image::../../images/Ring.jpg[305,30%]
 
 *HiLetgo Product*
 
@@ -47,12 +47,6 @@ This is an example output from the software.  This uses the WS2812 LED RING.
 Essentially, hook up the GLCD to the microcontroller (Ardunio UNO and any other type), compile and program, look at your LED ring and you will see the results on the ring... what could be simplier.
 
 
-Actual image on the ring
+Actual image on the dislay
 
-<<<<<<< .mine
 image::output.gif[Output,25%,25%]
-||||||| .r147
-image::Ring.jpg[Output,25%,25%]
-=======
-image::Ring.jpg[Ring,25%,25%]
->>>>>>> .r150
