@@ -1,4 +1,4 @@
 Example discovery shown on a serial terminal.
 
 
-image::SampleOutput.jpg[Output,25%,25%]
+image::SampleOutput.JPG[Output,25%,25%]
