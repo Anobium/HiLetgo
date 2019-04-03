@@ -24,6 +24,7 @@ The shield tested was a the Arduino UNO R3 - I also tested the LED ring on a Mic
 [red]#Excellent product.{nbsp}{nbsp}Fast and easy to use.{nbsp}{nbsp}Cost effective as you get two LED rings#
 
 *Technical Details*
+
 The WS2812 LED is an intelligent device with reverse polarity protection, power supply reverse polarity intended to prevent damage the MCU.
 
 Built-in signal shaping circuit,any one pixel after receiving the signal through the waveform shaping and then output to ensure line waveform distortion will not accumulate.
