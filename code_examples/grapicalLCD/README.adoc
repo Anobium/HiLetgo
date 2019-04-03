@@ -5,4 +5,4 @@ Essentially, hook up the GLCD to the microcontroller (Ardunio UNO and any other 
 
 Actaul image on the dislay
 
-image::output.jpg[output.jpg,25%,25%]
+image::output.jpg[output.jpg,50%,50%]
