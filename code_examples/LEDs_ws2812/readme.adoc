@@ -1,3 +1,47 @@
+# Product Review: 12 Bit WS2812 5050 RGB LED Ring with Integrated Driver Module
+
+*What it is*
+
+An LED full-color light ring of LEDs, full-color modules mounted on robust PCB.
+
+image::../../images/Ring.jpg[]
+
+*HiLetgo Product*
+
+The HiLetgo GLCD worked at expected when delivered - soldered the wire and connnected up 5v, 0V and DI (DataIn)
+
+The packaging was a solid carboard box with the LEDs sealed in an anti-static bag.Each LED ring is packages separately.
+
+
+The HiLetgo WS2812 LEDs are a bright and do not get hot - some of the LED rings do get warm.
+
+Connecting to the UNO uses one digital pin and the 5v and 0v connections.
+
+The shield tested was a the Arduino UNO R3 - I also tested the LED ring on a Microchip 16F18855 Xpress board - both worked very well.
+
+*Rating*
+
+[red]#Excellent product.{nbsp}{nbsp}Fast and easy to use.{nbsp}{nbsp}Cost effective as you get two LED rings#
+
+*Technical Details*
+The WS2812 LED is an intelligent device with reverse polarity protection, power supply reverse polarity intended to prevent damage the MCU.
+
+Built-in signal shaping circuit,any one pixel after receiving the signal through the waveform shaping and then output to ensure line waveform distortion will not accumulate.
+
+Built-in power-on reset and brown-out reset circuit.
+
+Trichromatic color of each pixel can realize 256 highlighted,complete 16777216 colors of all true color display, the scanning frequency is not less than 400Hz / s.
+
+Serial cascade interface, through a signal line to complete the receiving and decoding of data.
+
+Transfer transmission distance between any two points in less than 5 meters without any additional circuitry.
+
+When the refresh rate of 30 frames / sec, cascading number of not less than 1024 points.
+
+Data transmission speeds of up to 800Kbps.
+
+*Test Results*
+
 This is an example output from the software.  This uses the WS2812 LED RING.
 
 Essentially, hook up the GLCD to the microcontroller (Ardunio UNO and any other type), compile and program, look at your LED ring and you will see the results on the ring... what could be simplier.
@@ -5,4 +49,10 @@ Essentially, hook up the GLCD to the microcontroller (Ardunio UNO and any other 
 
 Actual image on the ring
 
+<<<<<<< .mine
+image::output.gif[Output,25%,25%]
+||||||| .r147
+image::Ring.jpg[Output,25%,25%]
+=======
 image::Ring.jpg[Ring,25%,25%]
+>>>>>>> .r150
