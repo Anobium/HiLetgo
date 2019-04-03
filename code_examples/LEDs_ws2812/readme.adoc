@@ -50,4 +50,4 @@ Essentially, hook up the GLCD to the microcontroller (Ardunio UNO and any other 
 
 Actual image on the dislay
 
-image::output.gif[Output,25%,25%]
+image::https://photos.app.goo.gl/9kpT2GVB6useFfA19[Output,25%,25%]
