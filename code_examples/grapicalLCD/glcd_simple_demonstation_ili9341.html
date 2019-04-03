@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Compilation Report</title>
+</head>
+<body>
+<h1>Compilation Report</h1>
+<p>Compiler Version (YYYY-MM-DD): 0.98.<<>> 2019-04-02  (Windows 32 bit)</p>
+<h2>Compilation time</h2>
+<p> (Compile time: 4 seconds)</p>
+<p> (Assembly time: 0.75 seconds)</p>
+<p> (Download time: 7.25 seconds)</p>
+<p> (Total time: 12 seconds)</p>
+<h2>Chip resource usage:</h2>
+<p>Chip Model: MEGA328P</p>
+<p>Program Memory: 9898/16384 words (60.41%)</p>
+<p>RAM: 264/2048 bytes (12.89%)</p>
+<h2>RAM Allocation</h2>
+<table border="1">
+</table>
+<h2>Subroutines</h2>
+<table border="1">
+<tr><th>Name</th><th>Code Size (lines)</th><th>Compiled Size (words)</th><th>Outgoing calls</th></tr>
+<tr><td>Main</td><td>69</td><td>517</td><td>INITUNO(57), SYSREADSTRING(5), Delay_S(1), BOX(2), GLCDDRAWSTRING_ILI9341(2), SHOWCASE2(1), SHOWCASE1(1), GLCDPRINT(3), GLCDPRINT(3), GLCDCLS_ILI9341(3), INITGLCD_ILI9341(124), GLCDROTATE_ILI9341(3), INITSYS(37)</td></tr>
+<tr><td>SHOWCASE1</td><td>42</td><td>1077</td><td>SYSDIVSUB16(11), SYSREADSTRING(14), GLCDDRAWCHAR_ILI9341(1), STR(3), PAD(3), GLCDPRINT(2), GLCDPRINT(1), FILLEDBOX_ILI9341(1), LINE(2), FILLEDCIRCLE(1), CIRCLE(1), BOX(3), GLCDDRAWSTRING_ILI9341(12), GLCDROTATE_ILI9341(1)</td></tr>
+<tr><td>SHOWCASE2</td><td>42</td><td>1089</td><td>SYSDIVSUB16(11), SYSREADSTRING(15), GLCDDRAWCHAR_ILI9341(1), STR(3), PAD(3), GLCDPRINT(2), GLCDPRINT(1), BIGPRINT_ILI9341(1), FILLEDBOX_ILI9341(1), LINE(2), FILLEDCIRCLE(1), CIRCLE(1), BOX(3), GLCDDRAWSTRING_ILI9341(11), GLCDROTATE_ILI9341(1)</td></tr>
+<tr><td>GLCDPRINT</td><td>18</td><td>104</td><td>GLCDDRAWCHAR_ILI9341(1)</td></tr>
+<tr><td>GLCDPRINT</td><td>21</td><td>154</td><td>SYSDIVSUB32(1), SYSCOMPEQUAL32(1), GLCDDRAWCHAR_ILI9341(1)</td></tr>
+<tr><td>BOX</td><td>20</td><td>271</td><td>SYSCOMPLESSTHAN16(6), PSET_ILI9341(4)</td></tr>
+<tr><td>CIRCLE</td><td>20</td><td>418</td><td>SYSMULTSUBINT(1), SYSDIVSUBINT(1), SYSCOMPLESSTHANINT(2), PSET_ILI9341(8)</td></tr>
+<tr><td>FILLEDCIRCLE</td><td>24</td><td>397</td><td>SYSMULTSUBINT(1), SYSCOMPLESSTHANINT(1), LINE(5)</td></tr>
+<tr><td>LINE</td><td>55</td><td>484</td><td>SYSMULTSUBINT(4), SYSCOMPLESSTHANINT(5), SYSCOMPEQUAL16(2), PSET_ILI9341(4)</td></tr>
+<tr><td>INITUNO</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>INITGLCD_ILI9341</td><td>155</td><td>506</td><td>Delay_MS(4), GLCDCLS_ILI9341(1), SENDDATA_ILI9341(65), SENDCOMMAND_ILI9341(21)</td></tr>
+<tr><td>GLCDCLS_ILI9341</td><td>82</td><td>188</td><td>SETADDRESSWINDOW_ILI9341(1)</td></tr>
+<tr><td>GLCDDRAWSTRING_ILI9341</td><td>13</td><td>81</td><td>GLCDDRAWCHAR_ILI9341(1)</td></tr>
+<tr><td>GLCDDRAWCHAR_ILI9341</td><td>95</td><td>323</td><td>SYSCOMPLESSTHAN(2), PSET_ILI9341(2)</td></tr>
+<tr><td>FILLEDBOX_ILI9341</td><td>17</td><td>203</td><td>SYSMULTSUB16(1), SYSCOMPLESSTHAN16(3), SENDWORD_ILI9341(1), SETADDRESSWINDOW_ILI9341(1)</td></tr>
+<tr><td>PSET_ILI9341</td><td>2</td><td>44</td><td>SENDWORD_ILI9341(1), SETADDRESSWINDOW_ILI9341(1)</td></tr>
+<tr><td>SENDCOMMAND_ILI9341</td><td>33</td><td>30</td><td></td></tr>
+<tr><td>SENDDATA_ILI9341</td><td>33</td><td>30</td><td></td></tr>
+<tr><td>SENDWORD_ILI9341</td><td>39</td><td>58</td><td></td></tr>
+<tr><td>SETADDRESSWINDOW_ILI9341</td><td>11</td><td>63</td><td>SENDDATA_ILI9341(8), SENDCOMMAND_ILI9341(3)</td></tr>
+<tr><td>GLCDROTATE_ILI9341</td><td>23</td><td>111</td><td>SENDDATA_ILI9341(5), SENDCOMMAND_ILI9341(1)</td></tr>
+<tr><td>BIGPRINT_ILI9341</td><td>10</td><td>83</td><td>DRAWBIGCHAR_ILI9341(1)</td></tr>
+<tr><td>DRAWBIGCHAR_ILI9341</td><td>71</td><td>501</td><td>SYSDIVSUB(1), SYSCOMPLESSTHAN(26), PSET_ILI9341(1)</td></tr>
+<tr><td>INITSYS</td><td>701</td><td>7</td><td></td></tr>
+<tr><td>SYSREADSTRING</td><td>101</td><td>24</td><td></td></tr>
+<tr><td>SYSMULTSUB16</td><td>73</td><td>10</td><td></td></tr>
+<tr><td>SYSMULTSUBINT</td><td>13</td><td>39</td><td>SYSMULTSUB16(1)</td></tr>
+<tr><td>SYSDIVSUB</td><td>48</td><td>16</td><td></td></tr>
+<tr><td>SYSDIVSUB16</td><td>38</td><td>48</td><td>SYSCOMPEQUAL16(1)</td></tr>
+<tr><td>SYSDIVSUBINT</td><td>14</td><td>48</td><td>SYSDIVSUB16(1)</td></tr>
+<tr><td>SYSDIVSUB32</td><td>40</td><td>176</td><td>SYSCOMPEQUAL32(1)</td></tr>
+<tr><td>SYSCOMPEQUAL16</td><td>34</td><td>7</td><td></td></tr>
+<tr><td>SYSCOMPEQUAL32</td><td>52</td><td>11</td><td></td></tr>
+<tr><td>SYSCOMPLESSTHAN</td><td>23</td><td>6</td><td></td></tr>
+<tr><td>SYSCOMPLESSTHAN16</td><td>38</td><td>10</td><td></td></tr>
+<tr><td>SYSCOMPLESSTHANINT</td><td>48</td><td>42</td><td></td></tr>
+<tr><td>STR</td><td>36</td><td>200</td><td>SYSDIVSUB16(4), SYSCOMPLESSTHAN16(4)</td></tr>
+<tr><td>PAD</td><td>16</td><td>190</td><td>SYSREADSTRING(1), SYSCOMPLESSTHAN(1)</td></tr>
+<tr><td>Delay_MS</td><td>0</td><td>12</td><td></td></tr>
+<tr><td>Delay_S</td><td>0</td><td>7</td><td>Delay_MS(1)</td></tr>
+<tr><td>SysStringTables</td><td>0</td><td>88</td><td></td></tr>
+<tr><td>GLCDCHARCOL3EXTENDED1</td><td>0</td><td>131</td><td></td></tr>
+<tr><td>GLCDCHARCOL4EXTENDED1</td><td>0</td><td>131</td><td></td></tr>
+<tr><td>GLCDCHARCOL5EXTENDED1</td><td>0</td><td>131</td><td></td></tr>
+<tr><td>GLCDCHARCOL6EXTENDED1</td><td>0</td><td>131</td><td></td></tr>
+<tr><td>GLCDCHARCOL7EXTENDED1</td><td>0</td><td>131</td><td></td></tr>
+<tr><td>BIGFONT32_41</td><td>0</td><td>131</td><td></td></tr>
+<tr><td>BIGFONT42_51</td><td>0</td><td>131</td><td></td></tr>
+<tr><td>BIGFONT52_61</td><td>0</td><td>132</td><td></td></tr>
+<tr><td>BIGFONT62_71</td><td>0</td><td>131</td><td></td></tr>
+<tr><td>BIGFONT72_81</td><td>0</td><td>132</td><td></td></tr>
+<tr><td>BIGFONT82_91</td><td>0</td><td>131</td><td></td></tr>
+<tr><td>BIGFONT92_101</td><td>0</td><td>131</td><td></td></tr>
+<tr><td>BIGFONT102_111</td><td>0</td><td>131</td><td></td></tr>
+<tr><td>BIGFONT112_121</td><td>0</td><td>131</td><td></td></tr>
+<tr><td>BIGFONT122_126</td><td>0</td><td>66</td><td></td></tr>
+<tr><td>BIGFONT193_202</td><td>0</td><td>131</td><td></td></tr>
+<tr><td>BIGFONT203_212</td><td>0</td><td>130</td><td></td></tr>
+<tr><td>BIGFONT213_216</td><td>0</td><td>59</td><td></td></tr>
+</table>
+</body>
+</html>
