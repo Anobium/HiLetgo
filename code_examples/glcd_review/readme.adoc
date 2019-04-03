@@ -30,7 +30,7 @@ The ILI9341 is a 262,144-color single-chip SOC driver for a-TFT liquid crystal d
 dots, comprising a 720-channel source driver, a 320-channel gate driver, 172,800 bytes GRAM for graphic
 display data of 240RGBx320 dots, and power supply circuit.
 
-ILI9341 supports parallel 8 bit data bus interface.{nbsp}{nbsp} }  The moving picture area can be specified in internal GRAM by window
+ILI9341 supports parallel 8 bit data bus interface.{nbsp}{nbsp}  The moving picture area can be specified in internal GRAM by window
 address function.{nbsp} {nbsp}  The specified window area can be updated selectively, so that moving picture can be
 displayed simultaneously independent of still picture area.
 
