@@ -1,3 +1,5 @@
+'This import file can support up to 5 pictures.. the library canbe easily extended
+
 #define Image1       @TableImage1
 #define Image2       @TableImage2
 #define Image3       @TableImage3
@@ -559,3 +561,14 @@ Table TableImage1 as Word 'Linux pengouin
 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF   '0x2250 (8784)
 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF   '0x2260 (8800)
 End Table
+
+
+
+table TableImage2
+end Table
+table TableImage3
+end Table
+table TableImage4
+end Table
+table TableImage5
+end Table
