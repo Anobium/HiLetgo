@@ -36,7 +36,7 @@ displayed simultaneously independent of still picture area.
 
 
 ILI9341 can operate with 1.65V ~ 3.3V I/O interface voltage and an incorporated voltage follower circuit to
-generate voltage levels for driving an LCD. ILI9341 supports full color, 8-color display mode and sleep mode for
+generate voltage levels for driving an LCD.{nbsp}{nbsp} ILI9341 supports full color, 8-color display mode and sleep mode for
 precise power control by software and these features make the ILI9341 an ideal LCD driver for medium or small
 size portable products such as digital cellular phones, smart phone, MP3 and PMP where long battery life is a
 major concern.
