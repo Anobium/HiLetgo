@@ -1,4 +1,4 @@
-This is an example output from the software.  This examines the GLCD controller.
+This is an example output from the software.  This use the on-board LED only..
 
 Essentially, hook up the GLCD to the microcontroller (Ardunio UNO and any other type), compile and program, look at the on-board LED and you will see the results... what could be simplier.
 
