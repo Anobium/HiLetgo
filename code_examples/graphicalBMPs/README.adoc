@@ -1,2 +1,2 @@
-image::output.jpg[Output, 304,358]
+image::output.jpg[Output,50%,50%]
 
