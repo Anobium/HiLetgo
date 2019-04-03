@@ -5,4 +5,4 @@ Essentially, hook up the GLCD to the microcontroller (Ardunio UNO and any other 
 
 Actual image on the dislay
 
-image::Ring.jpg[Output,25%,25%]
+image::Ring.jpg[Ring,25%,25%]
