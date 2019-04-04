@@ -5,7 +5,7 @@
 An LCD display that is 2-lines X 16-characters white with a blue display with a backlight.
 
 
-image::LCD1602.jpg[30%,30%]
+image::https://github.com/Anobium/HiLetgo/blob/master/images/LCD1602.jpg[30%,30%]
 
 
 *HiLetgo Product*
