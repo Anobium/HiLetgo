@@ -6,6 +6,9 @@ An LED full-color light ring of LEDs, full-color modules mounted on robust PCB.
 
 image::../../images/Ring.jpg[305,30%]
 
+
+[![Demo Doccou alpha](http://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+
 *HiLetgo Product*
 
 The HiLetgo GLCD worked at expected when delivered - soldered the wire and connnected up 5v, 0V and DI (DataIn)
