@@ -34,9 +34,9 @@ Code segments are shown below in the picture - the test results are below this p
 
 image::https://github.com/Anobium/HiLetgo/blob/master/images/LCDCodeUsed.JPG[Code segments]
 
-{empty}+
-{empty}+
-{empty}+
+{empty} +
+{empty} +
+{empty} +
 
 [cols="2", options="header"]
 |===
