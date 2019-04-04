@@ -49,9 +49,11 @@ This is an example output from the software.  This uses the WS2812 LED RING.
 Essentially, hook up the GLCD to the microcontroller (Ardunio UNO and any other type), compile and program, look at your LED ring and you will see the results on the ring... what could be simplier.
 
 
-Actual image on the display
+Actual pictues and a GIF
 
 image::https://qlvcra.bn.files.1drv.com/y4mEWXC7bPKEoBYKAuV9GysUwJaT2PPnxMGrpONyB0DdEueugptwbAg0mP8oWSjx-H-8IVB9lDbU9gdvEsXBilkphkZjRkQP_p3n3qIBDxfNbW1JPhndMRanopoTm9yMfZLn4GL7aEJwethrh59D41oerwjVR-XtJ8rASU7CrSaF-6RvH0e2KZ_4T_3qasN9Lf8?width=1080&height=1920&cropmode=none[Output,25%,25%]
+
+image::https://github.com/Anobium/HiLetgo/blob/master/code_examples/LEDs_ws2812/ZylonChaser.gif[GIF, 25%, 25%]
 
 A video on Youtube:  https://youtu.be/ryn7ZAGN7WY
 
