@@ -48,7 +48,8 @@ This is an example output from the software.  This uses the WS2812 LED RING.
 Essentially, hook up the GLCD to the microcontroller (Ardunio UNO and any other type), compile and program, look at your LED ring and you will see the results on the ring... what could be simplier.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![Fibonacci RMI Java EE](http://img.youtube.com/vi/nX_inqaAzOI/0.jpg)](https://www.youtube.com/watch?v=nX_inqaAzOI&feature=youtu.be&hd=1 "RMI Fibonacci Java")
+
 
 Actual image on the dislay
 
