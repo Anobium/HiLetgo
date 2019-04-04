@@ -145,7 +145,7 @@ MainCode:
 
             'Set the wait time
             WaitTime = WaitTime + 3
-            if WaitTime = 255 then WaitTime = 3
+            if WaitTime = 90 then WaitTime = 3
 
           loop
 
