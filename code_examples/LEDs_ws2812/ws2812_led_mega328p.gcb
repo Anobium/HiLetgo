@@ -2,10 +2,10 @@
 '''
 '''
 '''     Demos:
-'''         Chaser - LED chaser.  Cycles through the defined colours, with a fixed delay of between 3ms and 255ms. Colors are automatically changed.
+'''         Chaser - LED chaser.  Cycles through the defined colours, with a fixed delay of between 3ms and 90ms. Colors are automatically changed.
 '''
 '''     Methods of driving the WS2812:
-'''         Bit Banging a SPI signal, again in terms of timing.
+'''         The program generates the SPI signals to ensure the timing is as fast as possible.
 '''
 ''''''
 '''     Configuration:
@@ -47,11 +47,6 @@ Setup:
 
     #define USART_BAUD_RATE 115200
     #define USART_TX_BLOCKING
-
-    #define SWITCH_DOWN         0
-    #define SWITCH_UP           1
-    #define SWITCH             PORTb.5
-    Dir    SWITCH              In
 
     'WS2812 SPECIFIC CONSTANTS
     #define DOUT PORTd.2
