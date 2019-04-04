@@ -64,10 +64,10 @@ The GIT is layout matched the products that HiLegto produce.
 |https://github.com/Anobium/HiLetgo/tree/master/code_examples/lcd1602[LCD 1602 code]
 
 |WS2812 LED Ring
-|https://github.com/Anobium/HiLetgo/blob/master/code_examples/LEDs_ws2812/readme.adoc[WS2812 LED Ring]
+|https://github.com/Anobium/HiLetgo/blob/master/code_examples/leds_ws2812/readme.adoc[WS2812 LED Ring]
 |Shows how to program the LEDs with color, and determine specific timing.
 |https://www.amazon.co.uk/HiLetgo%C2%AE-WS2812-Integrated-Driver-Arduino/dp/B07B46JZDB/ref=sr_1_3?keywords=hiletgo+led&qid=1554045508&s=gateway&sr=8-3[*Amazon Product link*]
-|https://github.com/Anobium/HiLetgo/tree/master/code_examples/LEDs_ws2812[LED WS2812 Ring code]
+|https://github.com/Anobium/HiLetgo/tree/master/code_examples/leds_ws2812[LED WS2812 Ring code]
 
 |===
 
