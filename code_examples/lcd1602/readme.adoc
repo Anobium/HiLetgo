@@ -32,7 +32,7 @@ Tested Great Cow BASIC and Arduino - both tested successfully.
 
 This is the output from the Great Cow BASIC software.
 
-image::https://github.com/Anobium/HiLetgo/blob/master/code_examples/lcd1602/output.gif[50%,50%]
+image::https://github.com/Anobium/HiLetgo/blob/master/images/lcdoutput.gif[50%,50%]
 {empty} +
 {empty} +
 {empty} +
