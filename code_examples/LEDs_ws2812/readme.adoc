@@ -57,3 +57,4 @@ image::https://qlvcra.bn.files.1drv.com/y4mEWXC7bPKEoBYKAuV9GysUwJaT2PPnxMGrpONy
 Click: https://youtu.be/ryn7ZAGN7WY
 
 [![alt text](http://example.com/exampl.png)](http://example.com/link "title")
+![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=VID)
