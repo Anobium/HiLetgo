@@ -2,7 +2,7 @@
 
 *What it is*
 
-An LCD display that is 2-lines X 16-characters white with a blue dislay with a backlight.
+An LCD display that is 2-lines X 16-characters white with a blue display with a backlight.
 
 
 image::LCD1602.jpg[30%,30%]
