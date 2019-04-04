@@ -37,6 +37,8 @@ image::https://github.com/Anobium/HiLetgo/blob/master/code_examples/lcd1602/outp
 *Performance Test Results*
 
 Performance tests where completed using https://www.pjrc.com/teensy/td_libs_LiquidCrystal.html as reference.{nbsp}{nbsp}Programs were created for the Arduino compiler and the Great Cow BASIC compiler.{nbsp}{nbsp}The functionality in the programs provided the same output on the LCD.{nbsp}{nbsp}Code segments are shown below in the picture - then, test results are then show below this picture.
+{empty} +
+{empty} +
 
 image::https://github.com/Anobium/HiLetgo/blob/master/images/LCDCodeUsed.JPG[Code segments]
 
