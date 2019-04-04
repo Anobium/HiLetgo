@@ -553,6 +553,11 @@ sub  GLCDreadID ( out DeviceID as word )
       exit sub
  end if
 
+ if ( GLCDreadReg16(0x00) = 0x9595) then
+      DeviceID = 0x9595
+      devicestr =  "@reg(0x00) HX8347(i)"
+      exit sub
+ end if
 
 
  if ( GLCDreadReg16(0x04) = 0x8000) then
@@ -571,14 +576,16 @@ sub  GLCDreadID ( out DeviceID as word )
  end if
 
 
- if ( GLCDreadReg16(0xBF) = 0x0002 ) then
-    if ( GlcdReadData8 = 0x04 ) then
+ if ( ( GLCDreadReg16(0xBF) and 0xFF ) = 0x02 ) then
+
+      'read next byte
+      GlcdReadData8
+      'read next word
       if ( GlcdReadData16 = 0x9481 ) then
         DeviceID = 0x9481
         devicestr = "@reg(0xBF) ILI9481"
         exit sub
       end if
-    end if
  end if
 
 
@@ -587,7 +594,13 @@ sub  GLCDreadID ( out DeviceID as word )
  dim regLong as long
  regLong = GLCDreadReg32(0xD3)
 
- if ( regLong_h = 0x93 | regLong_h = 0x94 |regLong_h = 0x98 |regLong_h = 0x77 |regLong_h = 0x16  ) then  '0x9488, 9486, 9340, 9341, 7796
+ if ( ( reglong & 0xFFFF ) =0x9486 ) then
+      DeviceID = 0x9481
+      devicestr = "@reg(0xD3) ILI9486"
+      exit sub
+ end if
+
+ if ( regLong_h = 0x93 |regLong_h = 0x98 |regLong_h = 0x77 |regLong_h = 0x16  ) then  '0x9488, 9340, 9341, 7796
       DeviceID = 0x9341
       devicestr = "@reg(0xD3) ILI9341"
       exit sub
