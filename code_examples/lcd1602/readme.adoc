@@ -50,6 +50,12 @@ image::https://github.com/Anobium/HiLetgo/blob/master/images/LCDCodeUsed.JPG[Cod
 |Operation completed between <1ms
 
 |===
-
+{empty} +
+{empty} +
+{empty} +
 This is an example output from the software.
 
+{empty} +
+{empty} +
+{empty} +
+image::output.gif
