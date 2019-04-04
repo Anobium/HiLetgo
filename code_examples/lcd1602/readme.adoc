@@ -30,5 +30,22 @@ The LCD was connected using a 4-wire bus with Enable and RS connected.
 
 Tested Great Cow BASIC and Arduino - both tested successfully.
 
+Code segments are shown below in the picture - the test results are below this picture.
+
+image::https://github.com/Anobium/HiLetgo/blob/master/images/LCDCodeUsed.JPG[Code segments]
+
+[cols="3", options="header"]
+|===
+|Compiler
+|Performance Results
+
+|Arduino
+|Operation completed between ~4.5ms
+
+|Great Cow BASIC
+|Operation completed between <1ms
+
+|===
+
 This is an example output from the software.
 
