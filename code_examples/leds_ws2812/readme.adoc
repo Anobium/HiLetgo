@@ -4,7 +4,7 @@
 
 An LED full-color light ring of LEDs, full-color modules mounted on robust PCB.
 
-image::../../images/Ring.jpg[30%,30%]
+image::../../images/Ring.jpg[20%,20%]
 
 
 *HiLetgo Product*
