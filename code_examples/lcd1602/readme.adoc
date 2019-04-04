@@ -24,7 +24,7 @@ The HiLetgo 1602 LCDs are a bright and the contrast is excellent.
 
 The LCD are 1602 Serial LCD Module Display With Blue Backlight HD44780 Controller.{nbsp}{nbsp}The LCDs are low latency and are therefore fast.
 
-The LCD was connected using a 4-wire bus with Enable and RS connected.
+The LCD was connected using a LCD 4-wire bus connection and with LCD Enable and LCD RS connected.
 
 *Test Results*
 
