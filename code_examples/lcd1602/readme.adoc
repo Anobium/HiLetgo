@@ -53,10 +53,6 @@ image::https://github.com/Anobium/HiLetgo/blob/master/images/LCDCodeUsed.JPG[Cod
 {empty} +
 {empty} +
 {empty} +
-This is an example output from the software.
-
-{empty} +
-{empty} +
-{empty} +
+This is the output from the software.
 
 image::https://github.com/Anobium/HiLetgo/blob/master/code_examples/lcd1602/output.gif[50%,50%]
