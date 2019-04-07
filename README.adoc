@@ -23,7 +23,23 @@ The brand name is *HiLetgo* selling  products including development boards like 
 
 They are committed to provide the latest products at the highest quality and competitive price to the people at all over the world through many different channels like Amazon.
 
-See https://www.amazon.co.uk/s?k=hiletgo&ref=nb_sb_noss_2 on Amazon
+{empty} +
+[cols="2", options="header"]
+|===
+|Web Site
+|Web Address
+
+|HiLetgo man website
+|www.hiletgo.com
+
+|United States Amazon Store
+|https://amzn.to/2Kkpfsg
+
+|Europe Amazon Store
+|https://amzn.to/2L5ink2
+|===
+{empty} +
+
 
 
 # Demostration GIT Layout
