@@ -99,7 +99,7 @@ The following links are to the HiLetgo products.
 
 |HiLetgo UNO R3 CH340
 |https://amzn.to/2IlKPPQ
-|ttps://amzn.to/2LjdDGH[
+|https://amzn.to/2LjdDGH
 
 |HiLetgo W5100 Ethernet Shield
 |https://amzn.to/2KnoPWW
