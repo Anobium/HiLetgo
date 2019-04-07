@@ -82,7 +82,8 @@ The GIT is layout matched the products that HiLegto products.
 |===
 
 {empty} +
-# Amazon Product Links #
+
+# Amazon Product Links
 
 The following links are to the HiLetgo products.
 
