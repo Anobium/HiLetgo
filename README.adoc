@@ -93,9 +93,6 @@ The following links are to the HiLetgo products.
 |US Amazon Shop URL
 |Europe Shop URL
 
-|https://www.amazon.co.uk/HiLetgo-ATmega328P-Development-Compatible-Straight/dp/B00VY3ZLMO/ref=sr_1_2?keywords=hiletgo+uno&qid=1554040891&s=gateway&sr=8-2[*Amazon Product link*]
-
-
 |HiLetgo 1602 Serial LCD Module	
 |https://amzn.to/2VrvKzH[*URL*]
 |https://amzn.to/2WMKmtv[*URL*]
