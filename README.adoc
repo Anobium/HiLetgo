@@ -94,24 +94,24 @@ The following links are to the HiLetgo products.
 |Europe Shop URL
 
 |HiLetgo 1602 Serial LCD Module	
-|https://amzn.to/2VrvKzH[*URL*]
-|https://amzn.to/2WMKmtv[*URL*]
+|https://amzn.to/2VrvKzH
+|https://amzn.to/2WMKmtv
 
 |HiLetgo UNO R3 CH340
-|https://amzn.to/2IlKPPQ[*URL*]
-|ttps://amzn.to/2LjdDGH[*URL*]
+|https://amzn.to/2IlKPPQ
+|ttps://amzn.to/2LjdDGH[
 
 |HiLetgo W5100 Ethernet Shield
-|https://amzn.to/2KnoPWW[*URL*]
-|https://amzn.to/2Ifca66[*URL*]
+|https://amzn.to/2KnoPWW
+|https://amzn.to/2Ifca66
 
-HiLetgo 2.4 Inch TFT LCD Display ILI9341 240X320
-|https://amzn.to/2Ul5L09[*URL*]
-|https://amzn.to/2Uf3S5j[*URL*]
+|HiLetgo 2.4 Inch TFT LCD Display ILI9341 240X320
+|https://amzn.to/2Ul5L09
+|https://amzn.to/2Uf3S5j
 
 |HiLetgo WS2812 LED Ring Module
-|https://amzn.to/2IMCgyK[*URL*]
-|https://amzn.to/2uKfCgV[*URL*]
+|https://amzn.to/2IMCgyK
+|https://amzn.to/2uKfCgV
 |===
 	
 {empty} +
