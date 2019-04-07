@@ -44,48 +44,75 @@ They are committed to provide the latest products at the highest quality and com
 
 # Demostration GIT Layout
 
-The GIT is layout matched the products that HiLegto produce.
+The GIT is layout matched the products that HiLegto products.
 
 
-[cols="5", options="header"]
+[cols="4", options="header"]
 |===
 |Product
 |Review
 |Description
-|Product URL
 |GIT URL
 
 |UNO Board
 |https://github.com/Anobium/HiLetgo/blob/master/code_examples/uno_board/README.adoc[UNO board review]
 |Shows how the on-board LED can be used to many show many different techniques to use an LED
-|https://www.amazon.co.uk/HiLetgo-ATmega328P-Development-Compatible-Straight/dp/B00VY3ZLMO/ref=sr_1_2?keywords=hiletgo+uno&qid=1554040891&s=gateway&sr=8-2[*Amazon Product link*]
 |https://github.com/Anobium/HiLetgo/tree/master/code_examples/uno_board[Uno Board demonstrations code]
 
 |Graphical LCD  - Primitives
 |https://github.com/Anobium/HiLetgo/blob/master/code_examples/glcd_review/readme.adoc[GLCD review]
 |Shows how the Graphical LCD can be used for Text, Line, Circles, fonts etc
-|https://www.amazon.co.uk/HiLetgo%C2%AE-Display-ILI9341-240X320-Arduino/dp/B0798N3JWD/ref=sr_1_1?keywords=hiletgo+lcd&qid=1554042059&s=gateway&sr=8-1[*Amazon Product link*]
 |https://github.com/Anobium/HiLetgo/tree/master/code_examples/grapicalLCD[Graphical LCD code]
 
 |Graphical LCD - Sprites
 |https://github.com/Anobium/HiLetgo/blob/master/code_examples/glcd_review/readme.adoc[GLCD review]
 |Shows how the Graphical LCD can be used for showing Sprites for gaming
-|https://www.amazon.co.uk/HiLetgo%C2%AE-Display-ILI9341-240X320-Arduino/dp/B0798N3JWD/ref=sr_1_1?keywords=hiletgo+lcd&qid=1554042059&s=gateway&sr=8-1[*Amazon Product link*]
 |https://github.com/Anobium/HiLetgo/tree/master/code_examples/grapicalsprites[GLCD Sprites code]
 
 |1602 Serial LCD Module Display
 |https://github.com/Anobium/HiLetgo/tree/master/code_examples/lcd1602[1602 LCD Review]
 |Shows how the LCD can be used to prentation information on the LCD
-|https://www.amazon.co.uk/HiLetgo%C2%AE-Display-Backlight-Controller-Character/dp/B00HJ6AFW6/ref=sr_1_4?keywords=hiletgo+lcd&qid=1554045371&s=gateway&sr=8-4[*Amazon Product link*]
 |https://github.com/Anobium/HiLetgo/tree/master/code_examples/lcd1602[LCD 1602 code]
 
 |WS2812 LED Ring
 |https://github.com/Anobium/HiLetgo/blob/master/code_examples/leds_ws2812/readme.adoc[WS2812 LED Ring]
 |Shows how to program the LEDs with color, and determine specific timing.
-|https://www.amazon.co.uk/HiLetgo%C2%AE-WS2812-Integrated-Driver-Arduino/dp/B07B46JZDB/ref=sr_1_3?keywords=hiletgo+led&qid=1554045508&s=gateway&sr=8-3[*Amazon Product link*]
 |https://github.com/Anobium/HiLetgo/tree/master/code_examples/leds_ws2812[LED WS2812 Ring code]
 
 |===
 
+{empty} +
+# Amazon Product Links
 
-Updated 31.03.2019 v0.9.a
+The following links are to the HiLetgo products.
+
+
+[cols="2", options="header"]
+|===
+|Product
+|Amazon Shop URL
+
+
+|https://www.amazon.co.uk/HiLetgo-ATmega328P-Development-Compatible-Straight/dp/B00VY3ZLMO/ref=sr_1_2?keywords=hiletgo+uno&qid=1554040891&s=gateway&sr=8-2[*Amazon Product link*]
+
+
+|HiLetgo 1602 Serial LCD Module:	
+|United States: 	https://amzn.to/2VrvKzH
+Europe: 	https://amzn.to/2WMKmtv
+|HiLetgo UNO R3 CH340:	
+|United States: 	https://amzn.to/2IlKPPQ
+Europe: 	https://amzn.to/2LjdDGH
+|HiLetgo W5100 Ethernet Shield: 	
+|United States: 	https://amzn.to/2KnoPWW
+Europe: 	https://amzn.to/2Ifca66
+|HiLetgo 2.4 Inch TFT LCD Display ILI9341 240X320:	
+|United States: 	https://amzn.to/2Ul5L09
+Europe: 	https://amzn.to/2Uf3S5j
+|HiLetgo WS2812 LED Ring Module: 	
+|United States: 	https://amzn.to/2IMCgyK
+Europe: 	https://amzn.to/2uKfCgV
+|===
+	
+{empty} +
+
+Updated 31.03.2019 v0.9.b
