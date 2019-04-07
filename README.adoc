@@ -82,35 +82,39 @@ The GIT is layout matched the products that HiLegto products.
 |===
 
 {empty} +
-# Amazon Product Links
+# Amazon Product Links #
 
 The following links are to the HiLetgo products.
 
 
-[cols="2", options="header"]
+[cols="3", options="header"]
 |===
 |Product
-|Amazon Shop URL
-
+|US Amazon Shop URL
+|Europe Shop URL
 
 |https://www.amazon.co.uk/HiLetgo-ATmega328P-Development-Compatible-Straight/dp/B00VY3ZLMO/ref=sr_1_2?keywords=hiletgo+uno&qid=1554040891&s=gateway&sr=8-2[*Amazon Product link*]
 
 
-|HiLetgo 1602 Serial LCD Module:	
-|United States: 	https://amzn.to/2VrvKzH
-Europe: 	https://amzn.to/2WMKmtv
-|HiLetgo UNO R3 CH340:	
-|United States: 	https://amzn.to/2IlKPPQ
-Europe: 	https://amzn.to/2LjdDGH
-|HiLetgo W5100 Ethernet Shield: 	
-|United States: 	https://amzn.to/2KnoPWW
-Europe: 	https://amzn.to/2Ifca66
-|HiLetgo 2.4 Inch TFT LCD Display ILI9341 240X320:	
-|United States: 	https://amzn.to/2Ul5L09
-Europe: 	https://amzn.to/2Uf3S5j
-|HiLetgo WS2812 LED Ring Module: 	
-|United States: 	https://amzn.to/2IMCgyK
-Europe: 	https://amzn.to/2uKfCgV
+|HiLetgo 1602 Serial LCD Module	
+|https://amzn.to/2VrvKzH[*URL*]
+|https://amzn.to/2WMKmtv[*URL*]
+
+|HiLetgo UNO R3 CH340
+|https://amzn.to/2IlKPPQ[*URL*]
+|ttps://amzn.to/2LjdDGH[*URL*]
+
+|HiLetgo W5100 Ethernet Shield
+|https://amzn.to/2KnoPWW[*URL*]
+|https://amzn.to/2Ifca66[*URL*]
+
+HiLetgo 2.4 Inch TFT LCD Display ILI9341 240X320
+|https://amzn.to/2Ul5L09[*URL*]
+|https://amzn.to/2Uf3S5j[*URL*]
+
+|HiLetgo WS2812 LED Ring Module
+|https://amzn.to/2IMCgyK[*URL*]
+|https://amzn.to/2uKfCgV[*URL*]
 |===
 	
 {empty} +
