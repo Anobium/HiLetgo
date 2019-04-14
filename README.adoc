@@ -79,6 +79,10 @@ The GIT is layout matched the products that HiLegto products.
 |Shows how to program the LEDs with color, and determine specific timing.
 |https://github.com/Anobium/HiLetgo/tree/master/code_examples/leds_ws2812[LED WS2812 Ring code]
 
+|Ethernet Shield
+|https://github.com/Anobium/HiLetgo/blob/master/code_examples/ethernet_board/readme.adoc[Ethernet Shield]
+|Shows how to display MCUs values onto a live web page
+|https://github.com/Anobium/HiLetgo/tree/master/code_examples/ethernet_board[Ethernet Code]
 |===
 
 {empty} +
