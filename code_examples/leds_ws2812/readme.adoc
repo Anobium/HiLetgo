@@ -9,20 +9,18 @@ image::../../images/Ring.jpg[20%,20%]
 
 *HiLetgo Product*
 
-The HiLetgo Ring worked at expected when delivered - soldered the wire and connnected up 5v, 0V and DI (DataIn)
+The HiLetgo Ring worked at expected when delivered - soldered the wires and connnected to 5v, 0V and DI (DataIn)
 
-The packaging was a solid carboard box with the LEDs sealed in an anti-static bag.Each LED ring is packages separately.
+The packaging was a solid cardboard box with the Ring sealed in an anti-static bag.Each LED Ring is packaged separately.
 
 
-The HiLetgo WS2812 LEDs are a bright and do not get hot - some of the LED rings do get warm.
+The HiLetgo WS2812 LEDs are a bright and do not get warm - some of the LED Rings do get hot - equates to high current usage.
 
-Connecting to the UNO uses one digital pin and the 5v and 0v connections.
-
-The shield tested was a the Arduino UNO R3 - I also tested the LED ring on a Microchip 16F18855 Xpress board - both worked very well.
+The shield tested was a the Arduino UNO R3 - I also tested the Ring on a Microchip 16F18855 Xpress board - both worked very well.
 
 *Rating*
 
-[red]#Excellent product.{nbsp}{nbsp}Fast and easy to use.{nbsp}{nbsp}Cost effective as you get two LED rings#
+[red]#Excellent product.{nbsp}{nbsp}Fast and easy to use.{nbsp}{nbsp}Cost effective as you get two Rings#
 
 *Technical Details*
 
