@@ -9,7 +9,7 @@ image::../../images/Ring.jpg[20%,20%]
 
 *HiLetgo Product*
 
-The HiLetgo GLCD worked at expected when delivered - soldered the wire and connnected up 5v, 0V and DI (DataIn)
+The HiLetgo Ring worked at expected when delivered - soldered the wire and connnected up 5v, 0V and DI (DataIn)
 
 The packaging was a solid carboard box with the LEDs sealed in an anti-static bag.Each LED ring is packages separately.
 
@@ -46,7 +46,7 @@ Data transmission speeds of up to 800Kbps.
 
 This is an example output from the software.  This uses the WS2812 LED RING.
 
-Essentially, hook up the GLCD to the microcontroller (Ardunio UNO and any other type), compile and program, look at your LED ring and you will see the results on the ring... what could be simplier.
+Essentially, hook up the Ring to the microcontroller (Ardunio UNO and any other type), compile and program, look at your LED ring and you will see the results on the ring... what could be simplier.
 
 
 Actual pictues and a GIF
